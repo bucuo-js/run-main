@@ -1,0 +1,30 @@
+{
+  "name": "@zhaoyao91/run-main",
+  "version": "0.0.0",
+  "description": "Run main function.",
+  "main": "index.js",
+  "keywords": [
+    "zhaoyao91",
+    "run",
+    "main"
+  ],
+  "author": {
+    "name": "zhaoyao91",
+    "email": "zhaoyao91@aliyun.com"
+  },
+  "repository": "https://github.com/zhaoyao91-npm/run-main",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "devDependencies": {
+    "hasky": "^3.0.2",
+    "prettier": "^1.17.0",
+    "quick-pretty": "^0.3.1"
+  }
+}
