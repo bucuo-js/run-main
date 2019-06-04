@@ -1,5 +1,5 @@
 /**
- * @param {function(...[string]): void | Promise<void>} main
+ * @param {function(...[string]): (void | Promise<void>)} main
  * @param [options]
  * @param {function(error)} [options.logError=console.error]
  * @param {boolean} [options.forceExit=false]
