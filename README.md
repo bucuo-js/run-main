@@ -29,11 +29,11 @@ runMain(main);
 
 ## API
 
-### async runMain(mainFn, options?)
+### runMain(mainFn, options?)
 
-* `mainFn`: async function(...args)
-* `options.logError?`: function(error), default to `console.error`
-* `options.forceExit?`: boolean, default to `false`
+- `mainFn`: async function(...args)
+- `options.logError?`: function(error), default to `console.error`
+- `options.forceExit?`: boolean, default to `false`
 
 ## License
 
